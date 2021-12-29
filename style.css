@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(94, 89, 89);
+    /* width: 10vw; */
+    height: 100vh;
+    font-family: Pushster;
+    transition: transform 0.2s;
+    position:absolute;
+    /* position: ; */
+}
+.sidebarGo{
+    transform: translate(-200px, 0px);
+    position: absolute;
+}
+.sidebar nav{
+    padding:2%; /* hard coded*/
+    /* padding-left: 5% ;
+    padding-top: 5-0; */
+}
+.sidebar nav li{
+    list-style: none;
+   color: thistle;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.options{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    cursor: pointer;
+}
+.cross{
+   margin-left: 5vw;
+}
+.maincontent{
+    /* display: flex; */
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+.infocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: wheat; */
+   height: 80vh;
+   width: 80vw;
+   margin: 120px  auto;
+   
+}
+.devpic{
+    display: flex;
+    align-items: center;
+}
+.devpic img{
+    -webkit-clip-path: circle(50% at 52% 48%);
+    clip-path: circle(50% at 52% 48%);
+    /* display: flex;
+    align-items: center; */
+    /* height: 78vh; */
+    border: 6px solid black;
+}
+.devinfo{
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.hello{
+    padding: 5px;
+    font-size: 30px;
+}
+.about{
+    font-size: 15px;
+}
+.button button{
+    font-size: 36px;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: thistle;
+
+}
+ @media (max-width: 1230px){ 
+     .devpic{
+         display: none;
+     }
+    /* .sidebar{
+        position:absolute;
+        transform:translate(-145px,0px)
+    }&*/
+ }
+ .smallbtn1,.smallbtn2{
+    background-color: cyan;
+    /* padding: 9px 14px; */
+    /* font-size: ; */
+    border: 1.5px solid greenyellow;
+    border-radius: 22px;
+    border-bottom-style: groove;
+    /* width: vw; */
+    padding: 2vh;
+    text-align: center;
+    height: 5vh;
+    cursor: pointer;
+    /* margin: 5vh 15vw; */
+    margin: 5vh;
+    box-shadow: blueviolet;
+}
+   
+
+ 

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(94, 89, 89);
+    /* width: 10vw; */
+    height: 100vh;
+    font-family: Pushster;
+    transition: transform 0.2s;
+    position:absolute;
+    /* position: ; */
+}
+.sidebarGo{
+    transform: translate(-200px, 0px);
+    position: absolute;
+}
+.sidebar nav{
+    padding:2%; /* hard coded*/
+    /* padding-left: 5% ;
+    padding-top: 5-0; */
+}
+.sidebar nav li{
+    list-style: none;
+   color: thistle;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.options{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    cursor: pointer;
+}
+.cross{
+   margin-left: 5vw;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(118, 231, 188); */
+    /* background-color: rgba(94, 245, 245, 0.603); */
+}
+.sidebar{
+    background-color: rgb(173, 136, 136);
+    /* width: 10vw; */
+    position: absolute;
+    height: 100vh;
+    font-family: Pushster;
+}
+.options{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    cursor: pointer;
+}
+.cross{
+   margin-left: 5vw;
+}
+.sidebar nav{
+    padding:2%; /* hard coded*/
+    /* padding-left: 5% ;
+    padding-top: 5-0; */
+}
+.sidebar nav li{
+    list-style: none;
+   color: thistle;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: thistle;
+
+}
+.container{
+   
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    
+        font-family: Pushster;
+        font-size: 5em;
+    
+}
+.educontainter{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10vw;
+    
+}
+.edu1{
+    overflow: auto;
+    margin: 5vh 0vw;
+    background-color: rgb(188, 238, 10);
+    padding: 2vh;
+    border: 2px solid red;
+
+}
+.edu2{
+    margin: 5vh 0vw;
+    background-color: rgb(144, 238, 186);
+    padding: 2vh;
+    border: 2px solid red;
+}
+
+.edu3{
+    margin: 5vh 0vw;
+    background-color: rgb(250, 109, 255);
+    padding: 2vh;
+    border: 2px solid red;
+}
+
+.edu4{
+    margin: 5vh 0vw;
+    padding: 2vh;
+    background-color: burlywood;
+    border: 2px solid red;
+}
+.sidebarGo{
+    transform: translate(-200px, 0px);
+    position: absolute;
+}
